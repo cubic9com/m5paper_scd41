@@ -106,7 +106,7 @@ void perform_frc() {
 
     // Perform Forced Recalibration (FRC).
     error = scd4x.performForcedRecalibration(CO2_CONCENTRATION_IN_OUTSIDE, frc_correction);
-    if (error) {
+  if (error) {
         Serial.print("Error trying to execute performForcedRecalibration(): ");
         errorToString(error, errorMessage, 256);
         Serial.println(errorMessage);
