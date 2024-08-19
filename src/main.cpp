@@ -21,7 +21,7 @@ M5EPD_Canvas canvas(&M5.EPD);
  *
  * Automatic Self-Calibration（ASC）を無効にする。
  * 注：ASCは、ユーザーが手動で操作することなく、SCD4xの最高の長期安定性を保証するが、
- *    電力サイクルによるシングルショット動作では、ASCは使用できない。
+ *     電力サイクルによるシングルショット動作では、ASCは使用できない。
  */
 void disable_asc() {
     uint16_t error;
@@ -113,8 +113,8 @@ void perform_frc() {
     }
     delay(400);
 
-    Serial.println("Forced Recalibration has finised.");
-    canvas.drawString("Forced Recalibration has finised.", 0, 300, 4);
+    Serial.println("Forced Recalibration has finished.");
+    canvas.drawString("Forced Recalibration has finished.", 0, 300, 4);
     canvas.pushCanvas(0, 0, UPDATE_MODE_DU4);
 }
 
@@ -148,7 +148,7 @@ uint16_t measure_co2() {
         return -1;
     }
 
-    // read sensor output.
+    // Read sensor output.
     uint16_t co2 = 0;
     float temperature = 0.0f;
     float humidity = 0.0f;

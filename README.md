@@ -1,7 +1,7 @@
 
 # Overview
 
-m5paper_scd41 is a sketch for M5Paper, which is a CO2 densitometer using [Sensirion SCD41 CO<sub>2</sub> sensor](https://sensirion.com/products/catalog/SCD41) .
+m5paper_scd41 is a sketch for M5Paper, which is a CO2 concentration meter using [Sensirion SCD41 CO<sub>2</sub> sensor](https://sensirion.com/products/catalog/SCD41) .
 
 Note: [M5Paper](https://docs.m5stack.com/en/core/m5paper) is M5Stacks core device with a E-ink display.
 
