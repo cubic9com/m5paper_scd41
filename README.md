@@ -88,26 +88,26 @@ By connecting the M5Paper with a [Sensirion SCD41 CO₂ sensor](https://sensirio
     cd m5paper_scd41
     ```
 
-2. Install [Visual Studio Code](https://code.visualstudio.com/) if you haven't already.
+1. Install [Visual Studio Code](https://code.visualstudio.com/) if you haven't already.
 
-3. Open the project using Visual Studio Code:
+1. Open the project using Visual Studio Code:
     ```sh
     code .
     ```
 
-4. Install `PlatformIO IDE` extension:
+1. Install `PlatformIO IDE` extension:
     - Go to the Extensions view (`Ctrl+Shift+X`).
     - Search for `PlatformIO IDE` and install it.
 
-5. Open PlatformIO Home:
+1. Open PlatformIO Home:
     - In the left Activity Bar, click PlatformIO icon.
     - In the left Primary Sidebar, go to `QUICK ACCESS > PIO Home > Open`.
 
-6. Open the project:
+1. Open the project:
     - In the right Editor Group, click `Open Project` in the `PIO HOME` tab.
     - Select the cloned `m5paper_scd41` project folder.
 
-7. Build and upload the project:
+1. Build and upload the project:
     - In the left Primary Sidebar, go to `PROJECT TASKS > m5stack-core2 > General > Upload`.
 
 \[日本語\]
@@ -146,7 +146,9 @@ By connecting the M5Paper with a [Sensirion SCD41 CO₂ sensor](https://sensirio
 
 1. Pressing and holding the scroll wheel of M5Paper to perform Forced recalibration (FRC).  
 Note: As you know, on the M5Paper, you turn it on by pressing and holding the scroll wheel for 2 seconds. Then continue pressing it.
+
 1. Wait 3 minutes.
+
 1. Your M5Paper will now display the CO<sub>2</sub> concentration every 20 minutes.  
 Note: To reduce power consumption, M5Paper enters [Light-Sleep](https://docs.espressif.com/projects/esp-idf/en/stable/esp32/api-reference/system/sleep_modes.html#id1) mode except during measurement and drawing.
 
@@ -154,7 +156,9 @@ Note: To reduce power consumption, M5Paper enters [Light-Sleep](https://docs.esp
 
 1. Forced recalibration (FRC) を実行するために、部屋が換気されている状態で、M5Paperのスクロールホイールを長押しする。  
 （M5Paperでは、スクロールホイールを2秒間長押しすると電源がオンになるが、その後も押し続ける）
+
 1. 3分間待つ。
+
 1. 以降は20分毎にCO<sub>2</sub>濃度がM5Paperに表示される。  
 （電力消費を抑えるため、計測・描画中以外は [Light-Sleep](https://docs.espressif.com/projects/esp-idf/en/stable/esp32/api-reference/system/sleep_modes.html#id1) モードになる）
 
