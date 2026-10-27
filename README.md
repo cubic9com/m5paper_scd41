@@ -100,7 +100,7 @@ By connecting the M5Paper with a [Sensirion SCD41 CO₂ sensor](https://sensirio
     - Search for `PlatformIO IDE` and install it.
 
 1. Open PlatformIO Home:
-    - In the left Activity Bar, click PlatformIO icon.
+    - In the left Activity Bar, click the PlatformIO icon.
     - In the left Primary Sidebar, go to `QUICK ACCESS > PIO Home > Open`.
 
 1. Open the project:
