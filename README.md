@@ -33,7 +33,7 @@ In fact, various studies have shown that high indoor CO₂ levels can impair foc
 
 In office buildings in Japan, ventilation is strictly regulated by laws such as the Building Standards Act (Article 28) and the Act on Maintenance of Sanitation in Buildings. These rules ensure that indoor CO₂ levels stay below 1,000 ppm.
 
-However, such standards aren’t applied in private homes, which makes it easy to overlook ventilation and air quality during remote work.
+However, such standards don’t apply to private homes, which makes it easy to overlook ventilation and air quality during remote work.
 
 To address this issue, I initially tried using a commercially available CO₂ monitor. While it worked well, I found it consumed more power than I expected—mostly because its screen was always on and updated data every second.
 
@@ -95,7 +95,7 @@ By connecting the M5Paper with a [Sensirion SCD41 CO₂ sensor](https://sensirio
     code .
     ```
 
-1. Install `PlatformIO IDE` extension:
+1. Install the `PlatformIO IDE` extension:
     - Go to the Extensions view (`Ctrl+Shift+X`).
     - Search for `PlatformIO IDE` and install it.
 
@@ -144,7 +144,7 @@ By connecting the M5Paper with a [Sensirion SCD41 CO₂ sensor](https://sensirio
 
 # Usage / 使用方法
 
-1. Press and hold the scroll wheel of M5Paper to perform forced recalibration (FRC).  
+1. Press and hold the scroll wheel of the M5Paper to perform forced recalibration (FRC).  
 Note: As you know, on the M5Paper, you turn it on by pressing and holding the scroll wheel for 2 seconds. Then continue pressing it.
 
 1. Wait 3 minutes.
