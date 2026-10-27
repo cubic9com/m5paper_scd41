@@ -43,7 +43,7 @@ To further reduce power consumption, I chose a microcontroller that supports sle
 
 For this project, I used the [M5Paper](https://docs.m5stack.com/ja/core/m5paper), a device from [M5Stack](https://m5stack.com/). It features an e-paper display and an ESP32-based wireless module.
 
-By connecting the M5Paper with a [Sensirion SCD41 CO₂ sensor](https://sensirion.com/products/catalog/SCD41), I was able to build efficient CO₂ monitor tailored for home use.
+By connecting the M5Paper with a [Sensirion SCD41 CO₂ sensor](https://sensirion.com/products/catalog/SCD41), I was able to build an efficient CO₂ monitor tailored for home use.
 
 \[日本語\]
 
@@ -80,7 +80,7 @@ By connecting the M5Paper with a [Sensirion SCD41 CO₂ sensor](https://sensirio
 
 # Installation / インストール
 
-1. Connect [Sensirion SCD41 CO<sub>2</sub> sensor](https://sensirion.com/products/catalog/SCD41) to Grove Port.A (I2C) of M5Paper.
+1. Connect the [Sensirion SCD41 CO<sub>2</sub> sensor](https://sensirion.com/products/catalog/SCD41) to Grove Port.A (I2C) on the M5Paper.
 
 1. Clone the repository:
     ```sh
@@ -144,7 +144,7 @@ By connecting the M5Paper with a [Sensirion SCD41 CO₂ sensor](https://sensirio
 
 # Usage / 使用方法
 
-1. Pressing and holding the scroll wheel of M5Paper to perform Forced recalibration (FRC).  
+1. Press and hold the scroll wheel of M5Paper to perform forced recalibration (FRC).  
 Note: As you know, on the M5Paper, you turn it on by pressing and holding the scroll wheel for 2 seconds. Then continue pressing it.
 
 1. Wait 3 minutes.
