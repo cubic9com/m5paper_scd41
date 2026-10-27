@@ -1,9 +1,9 @@
 
 # Overview / 概要
 
-m5paper_scd41 is a sketch for [M5Paper](https://docs.m5stack.com/en/core/m5paper), which is a low-power consumption CO<sub>2</sub> concentration meter using [Sensirion SCD41 CO<sub>2</sub> sensor](https://sensirion.com/products/catalog/SCD41) .
+m5paper_scd41 is a sketch for the [M5Paper](https://docs.m5stack.com/en/core/m5paper), which is a low-power consumption CO<sub>2</sub> concentration meter using a [Sensirion SCD41 CO<sub>2</sub> sensor](https://sensirion.com/products/catalog/SCD41) .
 
-Note: M5Paper is [M5Stack](https://m5stack.com/)'s core device with a E-ink display.
+Note: M5Paper is [M5Stack](https://m5stack.com/)'s core device with an E-ink display.
 
 \[日本語\]
 
